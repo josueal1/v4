@@ -12,6 +12,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "bump": "standard-version",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -74,6 +75,7 @@
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.0.4"
+    "prettier": "^2.0.4",
+    "standard-version": "^8.0.2"
   }
 }

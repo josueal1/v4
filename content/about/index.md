@@ -2,18 +2,17 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - JavaScript (ES6+)
-  - HTML & (S)CSS
-  - React
-  - Vue
+  - Python (2.7+)
+  - HTML & CSS
+  - BootStrap (4+)
   - Node.js
   - WordPress
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA.
+Hello! I'm Josue, a software engineer based in Los Angeles, CA.
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+I love designing solutions with people that want to make a novel change in the world. My personal mission and vision is to architect robust, reliable, and equitable digital solutions!
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+Upon graduating from [University of California, Irvine](https://www.ics.uci.edu/) in June 2021, I plan to join the engineering team at [Target Corporation](https://corporate.target.com/about) where I will work on a wide variety of interesting and meaningful projects on a daily basis.
 
 Here are a few technologies I've been working with recently:

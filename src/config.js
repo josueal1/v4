@@ -1,38 +1,34 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Josue Lopez | Software Engineer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Josue Lopez is a software engineer based in Los Angeles, CA who enjoys guiding individuals to their full potential, contributing to communities, and propelling businesses towards growth!',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Josue Lopez, Josue, Lopez, josueal1, software engineer, back-end engineer, engineer, backend, api, web developer, flask, UCI, UC Irvine, Irvine, University of California, Target, Vusar',
+  siteUrl: 'https://lopezjosue.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  googleAnalyticsID: 'UA-174999151-1',
+  googleVerification: 'mI6a26KnGJdL7S8REFaEtpNbE8xF1aUif9FRZNzqg9Q',
+  name: 'Josue Lopez',
+  location: 'Los Angeles, CA',
+  email: 'josueal1@uci.edu',
+  github: 'https://github.com/josueal1',
+  twitterHandle: '@galvez2j',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/josueal1',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/josue-a-lopez',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/joshh__17',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/galvez2j',
     },
   ],
 

@@ -1,17 +1,18 @@
 {
   "name": "v4",
   "description": "Personal Website V4",
-  "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "version": "1.0.1",
+  "author": "Josue Lopez <josueal1@uci.edu>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/josueal1/v4"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "bump": "standard-version",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -74,6 +75,7 @@
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.0.4"
+    "prettier": "^2.0.4",
+    "standard-version": "^8.0.2"
   }
 }

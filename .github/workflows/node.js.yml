@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master, production ]
-  pull_request:
     branches: [ production ]
+  pull_request:
+    branches: [ master ]
   schedule:
     - cron: "0 0 * * TUE"
 
@@ -18,7 +18,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [10.x, 12.x]
+        # TODO: enable version check on 14.x
 
     steps:
     - uses: actions/checkout@v2

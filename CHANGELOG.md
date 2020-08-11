@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/josueal1/v4/compare/v1.1.2...v1.1.3) (2020-08-11)
+
+### [1.1.2](https://github.com/josueal1/v4/compare/v1.1.1...v1.1.2) (2020-08-11)
+
+### [1.1.1](https://github.com/josueal1/v4/compare/v1.1.0...v1.1.1) (2020-08-11)
+
+## [1.1.0](https://github.com/josueal1/v4/compare/v1.0.1...v1.1.0) (2020-08-11)
+
+### Features
+
+- **app:** Redirect /30min to calendly page ([91a9cc9](https://github.com/josueal1/v4/commit/91a9cc9a4c23f71e4b406c512e47d380e98987b3))
+
 ### [1.0.1](https://github.com/josueal1/v4/compare/v1.0.0...v1.0.1) (2020-08-10)
 
 ## 1.0.0 (2020-08-10)

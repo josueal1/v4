@@ -1,0 +1,43 @@
+# Created by Josue Lopez Aug 11, 2020
+
+# This workflow will do a clean install of node dependencies, build the source
+# code, configure a bot to commit a new release tag
+
+name: Update Release Tag with Auto Semantic Versioning
+
+on:
+  push:
+    branches: [ production ]
+
+jobs:
+  create-new-tag-version:
+      name: create-and-commit-new-tag-version
+
+      runs-on: ubuntu-latest
+
+      strategy:
+        matrix:
+          node-version: [10.x]
+
+      steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Enable NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install (necessary for bump to work)
+        run: npm install
+      
+      - name: Configure Git Action bot Identity
+        run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+
+      - name: Calculate new version based on Commits
+        run: npm run bump
+
+      - name: git push new release tag to GitHub
+        run: git push --follow-tags origin ${GITHUB_REF##*/}

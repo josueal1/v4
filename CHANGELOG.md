@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/josueal1/v4/compare/v1.1.3...v1.1.4) (2020-08-12)
+
+### Bug Fixes
+
+- **workflows:** Remove push rule to run test on 'master' ([ead97d2](https://github.com/josueal1/v4/commit/ead97d2bf07c78ed31333ca7ec0770fe035ddc78))
+
 ### [1.1.3](https://github.com/josueal1/v4/compare/v1.1.2...v1.1.3) (2020-08-11)
 
 ### [1.1.2](https://github.com/josueal1/v4/compare/v1.1.1...v1.1.2) (2020-08-11)

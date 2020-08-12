@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/josueal1/v4/compare/v1.1.4...v1.2.0) (2020-08-12)
+
+### Features
+
+- Create /portfolio page, section, and content ([e9de4de](https://github.com/josueal1/v4/commit/e9de4de2d6ad2c58b733fe88d489537410a327b5))
+
+### Bug Fixes
+
+- Conflict resolved ([45b88f8](https://github.com/josueal1/v4/commit/45b88f80d88dba26a8ead1fa8bff31722cff48f7))
+
 ### [1.1.4](https://github.com/josueal1/v4/compare/v1.1.3...v1.1.4) (2020-08-12)
 
 ### Bug Fixes

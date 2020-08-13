@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/josueal1/v4/compare/v1.3.0...v1.4.0) (2020-08-13)
+
+### Features
+
+- **src/images:** Update demo and og images with RESTful topics ([ac59ecb](https://github.com/josueal1/v4/commit/ac59ecbba0e202282bd9657644c3868df6403548))
+
 ## [1.3.0](https://github.com/josueal1/v4/compare/v1.2.0...v1.3.0) (2020-08-13)
 
 ### Features

@@ -42,7 +42,7 @@ const StyledMetadata = styled.div`
 `;
 const StyledGitHubLink = styled.a`
   color: ${colors.lightSlate};
-  padding: 10px;
+  padding: 4px;
 `;
 const StyledGitHubInfo = styled.div`
   margin-top: 10px;
@@ -105,8 +105,13 @@ const Footer = () => {
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang</div>
-
+          <div>Designed by Brittany Chiang</div>
+        </StyledGitHubLink>
+        <StyledGitHubLink
+          href="https://github.com/josueal1/v4"
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          <div>&amp; Re-Built by Josue Lopez</div>
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>

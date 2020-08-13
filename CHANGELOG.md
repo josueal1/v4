@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/josueal1/v4/compare/v1.3.0...v1.4.0) (2020-08-13)
+
+### Features
+
+- **src/images:** Update demo and og images with RESTful topics ([ac59ecb](https://github.com/josueal1/v4/commit/ac59ecbba0e202282bd9657644c3868df6403548))
+
+## [1.3.0](https://github.com/josueal1/v4/compare/v1.2.0...v1.3.0) (2020-08-13)
+
+### Features
+
+- **content/hero/index.md:** Update my slogan and description ([25c4bcf](https://github.com/josueal1/v4/commit/25c4bcf70bc9a94d3be42514f92e859e74b88638))
+- **pages/portfolio.js:** Change title to 'iPhone Portfolio' ([88603de](https://github.com/josueal1/v4/commit/88603de6eba98aee89a21af9f6370863eb13ba64))
+- **src/component/footer.js:** Add 'Re-Built by Josue' link ([6351afb](https://github.com/josueal1/v4/commit/6351afb4c7a20c58f99d3eeece5b6d9561249ee1))
+- **src/config.js:** Add /portfolio to NavLinks ([9491450](https://github.com/josueal1/v4/commit/9491450da5afa746904a1f119493fb42e7a45b97))
+- **src/images:** Update pics for GitHub and URL preview ([39d4bf6](https://github.com/josueal1/v4/commit/39d4bf64ab867afe8a2419e964175ea3e924c7d7))
+
 ## [1.2.0](https://github.com/josueal1/v4/compare/v1.1.4...v1.2.0) (2020-08-12)
 
 ### Features

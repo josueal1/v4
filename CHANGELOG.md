@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/josueal1/v4/compare/v1.4.0...v1.5.0) (2020-08-13)
+
+### Features
+
+- **footer.js:** Align fork and stars icon with names ([6bd0178](https://github.com/josueal1/v4/commit/6bd0178e73c87515536884532aac660473f94a36))
+
 ## [1.4.0](https://github.com/josueal1/v4/compare/v1.3.0...v1.4.0) (2020-08-13)
 
 ### Features

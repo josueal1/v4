@@ -2,11 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
 ### [1.5.1](https://github.com/josueal1/v4/compare/v1.5.0...v1.5.1) (2020-08-13)
 
 ### Bug Fixes
 
 - # **footer.js:** Place stars and fork icon all way to right ([17c560e](https://github.com/josueal1/v4/commit/17c560e814f7d30379e491360482fcb11c0c948a))
+
 
 ## [1.5.0](https://github.com/josueal1/v4/compare/v1.4.0...v1.5.0) (2020-08-13)
 

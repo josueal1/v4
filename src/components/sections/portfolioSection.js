@@ -71,6 +71,7 @@ const PortfolioSection = ({ data }) => {
   return (
     <StyledContainer id="portfolio" ref={revealContainer}>
       <Heading>{title}</Heading>
+    
       <StyledFlexContainer>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <SkillsContainer>

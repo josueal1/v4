@@ -63,7 +63,7 @@ const StyledAvatar = styled(Img)`
 `;
 
 const PortfolioSection = ({ data }) => {
-  const { frontmatter, html } = data[0].node;
+  const { frontmatter } = data[0].node;
   const { title, skills, pics } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
@@ -72,11 +72,10 @@ const PortfolioSection = ({ data }) => {
     <StyledContainer id="portfolio" ref={revealContainer}>
       <Heading>{title}</Heading>
       <StyledFlexContainer>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <SkillsContainer>
+          {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
+        </SkillsContainer>
       </StyledFlexContainer>
-      <SkillsContainer>
-        {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-      </SkillsContainer>
 
       <StyledFlexContainer>
         {pics &&

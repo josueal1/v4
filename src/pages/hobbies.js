@@ -12,7 +12,7 @@ const StyledMainContainer = styled(Main)`
 const PortfolioPage = ({ location, data }) => (
   <Layout location={location}>
     <StyledMainContainer className="fillHeight">
-      <PortfolioSection data={data.portfolio.edges} />
+      <PortfolioSection data={data.hobbies.edges} />
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
@@ -27,27 +27,13 @@ export default PortfolioPage;
 
 export const pageQuery = graphql`
   {
-    portfolio: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/portfolio/" } }) {
+    hobbies: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hobbies/" } }) {
       edges {
         node {
           frontmatter {
             title
             skills
-            pic1 {
-              childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-            pic2 {
-              childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-            pic3 {
+            pics {
               childImageSharp {
                 fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG

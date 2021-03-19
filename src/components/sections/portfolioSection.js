@@ -71,12 +71,12 @@ const PortfolioSection = ({ data }) => {
   return (
     <StyledContainer id="portfolio" ref={revealContainer}>
       <Heading>{title}</Heading>
+    
       <StyledFlexContainer>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <SkillsContainer>
+          {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
+        </SkillsContainer>
       </StyledFlexContainer>
-      <SkillsContainer>
-        {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-      </SkillsContainer>
 
       <StyledFlexContainer>
         {pics &&

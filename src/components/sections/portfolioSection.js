@@ -16,7 +16,7 @@ const StyledFlexContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 200px));
   ${media.tablet`grid-template-columns: repeat(2, minmax(200px, 200px));`};
-  ${media.phablet`grid-template-columns: repeat(1, minmax(320px, 320px));`};
+  ${media.phablet`display:block;`};
   width: 90%;
 `;
 const SkillsContainer = styled.ul`
@@ -54,11 +54,11 @@ const StyledPic = styled.div`
 `;
 const StyledAvatar = styled(Img)`
   mix-blend-mode: multiply;
-  // filter: grayscale(50%) contrast(1);
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
   height: 300px;
   width: 300px;
+  ${media.tablet`height:200px; width:100%;`};
   ${media.phablet`height:200px; width:100%;`};
 `;
 
@@ -71,8 +71,8 @@ const PortfolioSection = ({ data }) => {
   return (
     <StyledContainer id="portfolio" ref={revealContainer}>
       <Heading>{title}</Heading>
-    
       <StyledFlexContainer>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
         <SkillsContainer>
           {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
         </SkillsContainer>

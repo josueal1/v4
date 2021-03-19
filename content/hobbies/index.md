@@ -8,6 +8,10 @@ pics:
   - './uci-fireworks.JPG'
   - './socal-desert-hesperia.jpg'
   - './newport-beach.JPG'
+  - './max.jpg'
+  - './barn.jpg'
+  - './mouse.jpg'
+  - './stars.jpg'
 
 skills:
   - iPhone 6s

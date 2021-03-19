@@ -11316,6 +11316,11 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-awesome-lightbox@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-awesome-lightbox/-/react-awesome-lightbox-1.8.0.tgz#ce7ef9d4484d5f695b26588b48be94e5fe733639"
+  integrity sha512-V0a2wrAa4xuMLMLmQIuXfLbHjd08cgB130aqZhlhQRq9vhsBdVskhbUv9YY0J7nK42MrURJlhsmWlZ3fI6MHZA==
+
 react-dev-utils@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-4.2.3.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"
